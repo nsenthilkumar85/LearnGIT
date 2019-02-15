@@ -45,6 +45,8 @@ public class Test_Steps {
 	@When("^User LogOut from the Application$")
 	public void user_LogOut_from_the_Application() throws Throwable {
 		driver.findElement(By.xpath("//a[text()='Sign out']")).click();
+		driver.close();
+		driver.quit();
 	}
  
 	@Then("^Message displayed Logout Successfully$")
