@@ -47,6 +47,7 @@ public class Test_Steps {
 		driver.findElement(By.xpath("//a[text()='Sign out']")).click();
 		driver.close();
 		
+		
 	}
  
 	@Then("^Message displayed Logout Successfully$")
