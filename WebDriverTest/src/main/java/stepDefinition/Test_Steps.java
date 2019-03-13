@@ -52,7 +52,7 @@ public class Test_Steps {
  
 	@Then("^Message displayed Logout Successfully$")
 	public void message_displayed_Logout_Successfully() throws Throwable {
-        System.out.println("LogOut Successfully");
+        System.out.println("Application LogOut Successfull");
 	}
 
 }
