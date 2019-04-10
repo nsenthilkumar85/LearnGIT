@@ -21,6 +21,15 @@
             <version>6.8</version>								
             <scope>test</scope>							  			
        </dependency>	
+       
+       <!-- https://mvnrepository.com/artifact/javax.mail/mail -->
+<dependency>
+    <groupId>javax.mail</groupId>
+    <artifactId>mail</artifactId>
+    <version>1.4</version>
+</dependency>
+       
+       
        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 <dependency>
         <groupId>info.cukes</groupId>
